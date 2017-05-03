@@ -3,66 +3,62 @@
 # Subsections within a section should follow the format:
 #   [filename within code directory][tab character \t][subsection title]
 
-[Combinatorial optimization]
-#MaxFlow.cc	Dense max-flow
-Dinic.cc	Sparse max-flow
-MinCostMaxFlow.cc	Min-cost max-flow
-PushRelabel.cc	Push-relabel max-flow	
-MinCostMatching.cc	Min-cost matching
-MaxBipartiteMatching.cc	Max bipartite matchine
-MinCut.cc	Global min-cut
-GraphCutInference.cc	Graph cut inference
-#MaxFlow.java	Max-flow (Java)
-#MinCostMaxFlow.java	Min-cost max-flow (Java)
+[Dynamic Programming]
+convex_hull_trick.cpp	Convex Hull Trick
+convex_hull_trick_integers.cpp	ConvexHull Hull Trick (Integers)
+divide_and_conquer_optimization.cpp	Divide and Conquer Optimization
+knuth_optimization_type1.cpp	Knuth Optimization (Type 1)
+knuth_optimization_type2.cpp	Knuth Optimization (Type 2)
+
+[Data Structures]
+2D_dynamic_segtree.cpp	2D Dynamic Segment Tree
+centroid_decomposition.cpp	Centroid Decomposition
+dsu_with_rollbacks.cpp	DSU With Rollbacks
+hld.cpp	Heavy-Light Decomposition
+persistent_segtree_range_update.cpp	Persistent Segment Tree With Range Updates
+treap.cpp	Treap
+treap(implicit_key).cpp	Treap With Implicit Key
+persistean_treap.cpp	Persistent Treap
 
 [Geometry]
-ConvexHull.cc	Convex hull
-Geometry.cc	Miscellaneous geometry
-JavaGeometry.java	Java geometry
-Geom3D.java	3D geometry
-Delaunay.cc	Slow Delaunay triangulation
-#Delaunay.java	Slow Delaunay triangulation (Java)
+3D_convex_hull.cpp	3D Convex Hull
+closest_point_pair.cpp	Closest Point Pair
+dynamic_upper_convex_hull.cpp	Dynamic Upper Convex Hull
+farthest_points.cpp	Farthest Point Pair
+half_plane_intersection_randomized_O(N).cpp	Half Plane Intersection (Randomized Incremental Algorithm)
+minkowski_sum(bonus_convex_hull).cpp	Minkowski Sum of Convex Polygons
+pair_of_intersecting_segments.cpp	Pair of Intersecting Segments
+minimum_enclosing_circle_O(N)_randomized.cpp	Minimum Enclosing Circle (Randomized Incremental Algorithm)
 
-[Numerical algorithms]
-Euclid.cc	Number theory (modular, Chinese remainder, linear Diophantine)
-GaussJordan.cc	Systems of linear equations, matrix inverse, determinant
-ReducedRowEchelonForm.cc	Reduced row echelon form, matrix rank
-FFT_new.cc	Fast Fourier transform
-Simplex.cc	Simplex algorithm
-#FFT.cc	Fast Fourier transform (C++)
+[Graphs]
+dinic.cpp	Maximum Flow (Dinic)
+find_facets.cpp	Facet Finding
+lca_O(1).cpp	LCA O(1)
+mcmf_dijkstra_potentials.cpp	Min Cost Max Flow (Dijkstra with Potentials)
+mcmf_spfa.cpp	Min Cost Max Flow (SPFA)
+offline_lca.cpp	Offline LCA (Tarjan)
+online_lca.cpp	Online LCA
+rooted_tree_isomorphism.cpp	Rooted Tree Isomorphism
+vertex_cover.cpp	Vertex Cover (Types of Vertices)
 
-[Graph algorithms]
-#BellmanFord.cc	Bellman-Ford shortest paths with negative edge weights (C++)
-#DijkstraFloyd.cc	Dijkstra and Floyd's algorithm (C++)
-FastDijkstra.cc	Fast Dijkstra's algorithm
-SCC.cc	Strongly connected components
-EulerianPath.cc	Eulerian path
-#Kruskal.cc	Kruskal's algorithm
-#Prim.cc	Minimum spanning trees
+[Math]
+chinese_remainder_theorem.cpp	Chinese Remainder Theorem
+discrete_logarithm_and_square_root.cpp	Discrete Logarithm and Square Root
+euclid_xy.cpp	Extended Euclid Algorithm
+fft.cpp	Fast Fourier Transform
+find_generator_of_Zp.cpp	Generator of Zp
+karatsuba.cpp	Karatsuba
+precalculate_inverses.cpp	Linear Time Precalculation of Inverses
 
-[Data structures]
-SuffixArray.cc	Suffix array
-BIT.cc	Binary Indexed Tree
-UnionFind.cc	Union-find set
-KDTree.cc	KD-tree
-splay.cc	Splay tree
-SegmentTreeLazy.java	Lazy segment tree
-LCA.cc	Lowest common ancestor
 
-[Miscellaneous]
-LongestIncreasingSubsequence.cc	Longest increasing subsequence
-Dates.cc	Dates
-LogLan.java	Regular expressions
-Primes.cc	Prime numbers
-IO.cc	C++ input/output
-KMP.cc	Knuth-Morris-Pratt
-LatLong.cc	Latitude/longitude
-EmacsSettings.txt	Emacs settings
-#TopologicalSort.cc	Topological sort (C++)
-#Dates.java	Dates (Java)
-#DecFormat.java	Decimal output formatting (Java)
-#RandomSTL.cc	Random STL stuff
-#CSP.cc	Constraint satisfaction problems
-#FastExpo.cc	Fast exponentiation
-#LCS.cc	Longest common subsequence
-#MillerRabin.c	Miller-Rabin Primality Test (C)
+[Strings]
+aho_corasick.cpp	Aho-Corasick
+manacer.cpp	Discrete Manacer
+palindromic_tree.cpp	Palindromic Tree
+prefix_function.cpp	Prefix Function
+suffix_array_1.cpp	Suffix Array (Implementation 1)
+suffix_array_2.cpp	Suffix Array (Implementation 2)
+suffix_automaton.cpp	Suffix Automaton
+suffix_tree.cpp	Suffix Tree
+z_function.cpp	Z Function
+
