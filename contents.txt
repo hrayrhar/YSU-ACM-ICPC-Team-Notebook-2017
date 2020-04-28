@@ -16,9 +16,11 @@ centroid_decomposition.cpp	Centroid Decomposition
 dsu_with_rollbacks.cpp	DSU With Rollbacks
 hld.cpp	Heavy-Light Decomposition
 persistent_segtree_range_update.cpp	Persistent Segment Tree With Range Updates
-treap.cpp	Treap
+#treap.cpp	Treap
 treap(implicit_key).cpp	Treap With Implicit Key
 persistean_treap.cpp	Persistent Treap
+splay_tree.cpp	Splay Tree
+2D_Fenwick.cpp	2D Fenwick Tree Range Updates
 
 [Geometry]
 3D_convex_hull.cpp	3D Convex Hull
@@ -31,15 +33,17 @@ pair_of_intersecting_segments.cpp	Pair of Intersecting Segments
 minimum_enclosing_circle_O(N)_randomized.cpp	Minimum Enclosing Circle (Randomized Incremental Algorithm)
 
 [Graphs]
-dinic.cpp	Maximum Flow (Dinic)
+#dinic.cpp	Maximum Flow (Dinic)
 find_facets.cpp	Facet Finding
 lca_O(1).cpp	LCA O(1)
 mcmf_dijkstra_potentials.cpp	Min Cost Max Flow (Dijkstra with Potentials)
-mcmf_spfa.cpp	Min Cost Max Flow (SPFA)
+#mcmf_spfa.cpp	Min Cost Max Flow (SPFA)
 offline_lca.cpp	Offline LCA (Tarjan)
 online_lca.cpp	Online LCA
 rooted_tree_isomorphism.cpp	Rooted Tree Isomorphism
 vertex_cover.cpp	Vertex Cover (Types of Vertices)
+hungarian.cpp	Hungarian Algorithm
+cactus.cpp	Cactus
 
 [Math]
 chinese_remainder_theorem.cpp	Chinese Remainder Theorem
@@ -47,9 +51,9 @@ discrete_logarithm_and_square_root.cpp	Discrete Logarithm and Square Root
 euclid_xy.cpp	Extended Euclid Algorithm
 fft.cpp	Fast Fourier Transform
 find_generator_of_Zp.cpp	Generator of Zp
-karatsuba.cpp	Karatsuba
+#karatsuba.cpp	Karatsuba
 precalculate_inverses.cpp	Linear Time Precalculation of Inverses
-
+simplex.cpp	Simplex Algorithm
 
 [Strings]
 aho_corasick.cpp	Aho-Corasick
@@ -58,7 +62,7 @@ palindromic_tree.cpp	Palindromic Tree
 prefix_function.cpp	Prefix Function
 suffix_array_1.cpp	Suffix Array (Implementation 1)
 suffix_array_2.cpp	Suffix Array (Implementation 2)
-suffix_automaton.cpp	Suffix Automaton
+#suffix_automaton.cpp	Suffix Automaton
 suffix_tree.cpp	Suffix Tree
 z_function.cpp	Z Function
-
+all_palindroms.cpp	All Palindroms
